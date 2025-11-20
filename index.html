@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandresh Kanyal - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Chandresh Codes</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image-container">
+                    <img src="profile.jpg" alt="Chandresh Kanyal" class="profile-image" id="profileImg">
+                </div>
+                <h1 class="hero-title">Chandresh Kanyal</h1>
+                <p class="hero-subtitle">Data Scientist & Machine Learning Engineer</p>
+                <p class="hero-description">
+                    Results-driven Data Scientist with hands-on experience in building end-to-end machine learning pipelines, 
+                    deploying predictive models, and leveraging AWS cloud services.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="contactBtn">Get In Touch</button>
+                    <button class="btn btn-secondary" id="resumeBtn">View Resume</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am a passionate Data Scientist with expertise in developing data-driven solutions for real-world business problems. 
+                    My experience spans across machine learning model development, feature engineering, model optimization, and integrating 
+                    AI models into scalable production systems.
+                </p>
+                <p>
+                    I specialize in Python, SQL, and data visualization, with a strong foundation in statistical analysis. 
+                    I'm skilled in working with AWS cloud services, building ETL pipelines, and implementing advanced AI techniques 
+                    including LLM fine-tuning, RAG, and LangChain.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Quicksight</span>
+                        <span class="skill-tag">Oracle Analytics</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Artificial Intelligence</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">LLM Fine Tuning</span>
+                        <span class="skill-tag">LoRA</span>
+                        <span class="skill-tag">RAG</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">LangGraph</span>
+                        <span class="skill-tag">Model Quantization</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ETL Pipelines</span>
+                        <span class="skill-tag">Data Warehousing</span>
+                        <span class="skill-tag">Data Cleansing</span>
+                        <span class="skill-tag">Schema Validation</span>
+                        <span class="skill-tag">Performance Tuning</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS (S3, Redshift, SageMaker)</span>
+                        <span class="skill-tag">Apache Airflow</span>
+                        <span class="skill-tag">CI/CD Pipelines</span>
+                        <span class="skill-tag">Unit Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🚇</div>
+                    <h3 class="project-title">Transit Optimization and Anomaly Detection System</h3>
+                    <p class="project-description">
+                        Developed an intelligent system for optimizing transit operations and detecting anomalies in transportation data. 
+                        Implemented machine learning models to identify patterns and improve efficiency in transit systems.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">💳</div>
+                    <h3 class="project-title">Credit Risk Prediction</h3>
+                    <p class="project-description">
+                        Built a predictive model for assessing credit risk using advanced machine learning techniques. 
+                        The system helps financial institutions make informed lending decisions by analyzing customer data and 
+                        predicting default probabilities.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">ML Models</span>
+                        <span class="tech-tag">Data Analysis</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🤖</div>
+                    <h3 class="project-title">AI-Powered Data Pipeline</h3>
+                    <p class="project-description">
+                        Designed and implemented an end-to-end data pipeline with AI integration using AWS services. 
+                        Features include automated ETL processes, real-time data processing, and scalable model deployment 
+                        for production environments.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">ETL</span>
+                        <span class="tech-tag">MLOps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/chandresh-kanyal-6837321b2/" target="_blank" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        LinkedIn
+                    </a>
+                    <a href="mailto:your.email@example.com" class="contact-link">
+                        <span class="contact-icon">📧</span>
+                        Email
+                    </a>
+                </div>
+                <div class="certifications">
+                    <h3>Certifications</h3>
+                    <div class="cert-list">
+                        <span class="cert-badge">AWS Certified AI Practitioner (AIF-C01)</span>
+                        <span class="cert-badge">MongoDB Certified Associate Atlas Administrator</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Chandresh Kanyal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
